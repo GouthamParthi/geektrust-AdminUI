@@ -1,0 +1,22 @@
+.table {
+  border-collapse: collapse;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+.checkbox {
+  width: 40px;
+  height: 20px;
+}
+.selected {
+  background-color: rgb(136, 243, 247);
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: 10px;
+}
